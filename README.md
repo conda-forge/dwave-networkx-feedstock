@@ -1,11 +1,11 @@
-About dwave-networkx
-====================
+About dwave-networkx-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dwave-networkx-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dwavesystems/dwave_networkx
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dwave-networkx-feedstock/blob/main/LICENSE.txt)
 
 Summary: A NetworkX extension providing graphs and algorithms relevent to working with the D-Wave System
 
