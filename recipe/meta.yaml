@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools
   run:
     - numpy >=1.17.3
     - dimod >=0.10.8
