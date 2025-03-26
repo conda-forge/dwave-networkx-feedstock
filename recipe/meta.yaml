@@ -1,5 +1,5 @@
 {% set name = "dwave-networkx" %}
-{% set version = "0.8.16" %}
+{% set version = "0.8.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dwave_networkx-{{ version }}.tar.gz
-  sha256: 2d7b52a8b34b74183697ab69e0e3ca94c5769a51449767cd20b930e44b29e531
+  sha256: 392bf17f8cd61b30dcdce525ad9040a0258b65b8318307fdb03a0ce04e860751
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
