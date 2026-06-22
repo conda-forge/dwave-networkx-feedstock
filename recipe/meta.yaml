@@ -1,5 +1,5 @@
 {% set name = "dwave-networkx" %}
-{% set version = "0.8.18" %}
+{% set version = "0.8.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dwave_networkx-{{ version }}.tar.gz
-  sha256: b9d00e3f9dcc642572e676ffbca15b468204411724711cee606af285c30e6eca
+  sha256: 1a06359dec8a2b3f5a4f13dc5b8f6cc8d47c16b34f23969e582aad524bd97127
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - numpy >=1.17.3
-    - dimod >=0.10.8
+    - dimod >=0.12.5
     - networkx >=2.4
     - python >={{ python_min }}
 
